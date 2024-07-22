@@ -1,0 +1,60 @@
+// SCSS PARA EL CONTACT
+
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    &__data {
+        width: 33%;
+        min-width: 400px;
+        height: 350px;
+
+        padding: $sp7;
+    }
+    &__title{
+        font-family: $mono;
+        font-size: $xxl;
+        font-weight: $thin;
+        margin-bottom: $sp4;
+    }
+    &__text {
+        font-family: $roboto;
+        font-size: $md;
+    }
+    &__mapa {
+        width: 33%;
+        min-width: 400px;
+        height: 350px;
+        position: relative;
+        &-map{
+            height: 60%;
+            position: absolute;
+            top: 20%;
+            left: -$sp4;
+        }
+    }
+    &__azul {
+        background-color: $blue-de-france;
+        height: 75%;
+        top: 0;
+        left: 0;
+    }
+    &__cafetera {
+        width: 33%;
+        min-width: 400px;
+        height: 350px;
+
+        position: relative;
+    }
+    &__cafe {
+        position: absolute;
+        left: -$sp6;
+        width: $sp8;
+        height: $sp9;
+        object-fit: cover;
+    }
+    &__maquina {
+        width: 100%;
+    }
+
+}

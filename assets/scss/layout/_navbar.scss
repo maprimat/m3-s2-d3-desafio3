@@ -1,0 +1,23 @@
+// SCSS PARA EL NAVBAR
+
+.navbar {
+    font-family: $mono;
+    display: flex;
+    justify-content: space-between;
+    padding: $sp2 $sp8;
+    
+    &__logo {
+        width: $sp6;
+    }
+    &__menu {
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+        gap: $sp5;
+    }
+    &__actions {
+        display: flex;
+        align-items: center;
+        gap: $sp5;
+    }
+}

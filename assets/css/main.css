@@ -1,0 +1,187 @@
+/* IMPORTAR ARCHIVOS QUE ESTAN DENTRO DE LA CARPETA SCSS */
+@import url("https://fonts.googleapis.com/css2?family=PT+Mono&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  font-family: "PT Mono", monospace;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 120px;
+}
+.navbar__logo {
+  width: 45px;
+}
+.navbar__menu {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  gap: 30px;
+}
+.navbar__actions {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.hero__image {
+  width: 75%;
+  min-width: 600px;
+  height: 100%;
+  position: relative;
+}
+.hero__image img {
+  width: 100%;
+}
+.hero__data {
+  display: flex;
+  align-items: center;
+  padding: 8px 30px;
+  gap: 25px;
+  background-color: #fff;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 120px;
+}
+.hero__item {
+  font-family: "PT Mono", monospace;
+  padding: 25px;
+}
+.hero__item-title {
+  font-size: 40px;
+}
+.hero__item-title {
+  font-weight: 300;
+}
+.hero__item-description {
+  font-family: "Roboto", sans-serif;
+}
+.hero__heading {
+  width: 25%;
+  min-height: 100%;
+  position: relative;
+  display: grid;
+  place-content: center;
+}
+.hero__container-title {
+  margin-left: 10%;
+}
+.hero__title {
+  font-family: "PT Mono", monospace;
+  font-size: 70px;
+  font-weight: 300;
+}
+.hero__subtitle {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+.hero__square {
+  width: 120px;
+  height: 120px;
+}
+.hero__square--yellow {
+  background-color: yellow;
+  position: absolute;
+  bottom: 0;
+}
+.hero__square--orange {
+  background-color: #e4572e;
+  position: absolute;
+  top: -16px;
+  left: -16px;
+  display: grid;
+  place-content: center;
+  font-size: 40px;
+  color: #fff;
+}
+
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.contact__data {
+  width: 33%;
+  min-width: 400px;
+  height: 350px;
+  padding: 60px;
+}
+.contact__title {
+  font-family: "PT Mono", monospace;
+  font-size: 40px;
+  font-weight: 300;
+  margin-bottom: 25px;
+}
+.contact__text {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+.contact__mapa {
+  width: 33%;
+  min-width: 400px;
+  height: 350px;
+  position: relative;
+}
+.contact__mapa-map {
+  height: 60%;
+  position: absolute;
+  top: 20%;
+  left: -25px;
+}
+.contact__azul {
+  background-color: #3c91e6;
+  height: 75%;
+  top: 0;
+  left: 0;
+}
+.contact__cafetera {
+  width: 33%;
+  min-width: 400px;
+  height: 350px;
+  position: relative;
+}
+.contact__cafe {
+  position: absolute;
+  left: -45px;
+  width: 120px;
+  height: 145px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.contact__maquina {
+  width: 100%;
+}
+
+.btn {
+  font-family: "PT Mono", monospace;
+  width: 145px;
+  height: 30px;
+  border-radius: 0;
+}
+.btn--primary {
+  background-color: #fff;
+  border: 1px solid #a2a2a2;
+  color: #a2a2a2;
+}
+.btn--secondary {
+  background-color: #4ca866;
+  border: 1px solid #4ca866;
+  color: #fff;
+}
+
+.link {
+  text-decoration: none;
+  color: #a2a2a2;
+}
+.link:hover {
+  color: #000000;
+}/*# sourceMappingURL=main.css.map */

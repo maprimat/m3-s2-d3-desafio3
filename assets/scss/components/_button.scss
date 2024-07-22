@@ -1,0 +1,19 @@
+// COMPONENTE REUSABLE DE BOTON
+
+.btn {
+    font-family: $mono;
+    width: $sp9;
+    height: $sp5;
+    border-radius: 0;
+
+    &--primary {
+        background-color: $white;
+        border: 1px solid $quick-silver;
+        color: $quick-silver;
+    }
+    &--secondary {
+        background-color: $shiny-shamrock;
+        border: 1px solid $shiny-shamrock;
+        color: $white;
+    }
+}
